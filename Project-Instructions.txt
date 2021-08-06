@@ -1,0 +1,16 @@
+Instruction:
+You are to develop a To-Do List. Just try your best to design as close to the 
+sample as possible. Ask questions too when in doubt.
+You should add features like add, delete, onclick to highlight items green. You can add your own concepts too 
+so long as it works similar.
+Design both the mobile and desktop views so it can be responsive on phone.
+ 
+Note: The sample project is a property of John Fischera so I have no official right to it. It
+is only used for learning purpose.
+
+Color Properties
+Background- #04A1BF or rgb(4,161,191)
+Orange- #D7B9BF or rgb(215,185,191)
+Green- #51DF70 or rgb(81,223,112)
+Dark Gray- #025F70 or rgb(2,95,112)
+White- #FFFFFF or rgb(255,255,255)
