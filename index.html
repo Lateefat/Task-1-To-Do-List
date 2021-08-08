@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">WORK TO-DOS</h1>
+        <p id="firstpara">Enter text into the input field to add items to your list (max 28 characters).</p>
+        <p id="secondpara">Click the item to mark it as complete.</p>
+        <p id="thirdpara">Click the "X" to remove the item from your list.</p>
+        <form id="form-element">
+            <input id="inputbox" type="text" placeholder="New item..." maxlength="28">
+            <div class="input-div">
+                <i class="fa fa-pencil pencil" aria-hidden="true" id="pencil"></i>
+                <input type="submit" name="" class="input-pencil" value=" ">
+            </div>
+        </form>
+        <br>
+        <p id="msg"></p>
+        <br>
+        <ul class="list-items" id="uList">
+            <!-- <li class="list-input">
+                <button class="list-btn">X</button>
+            </li> -->
+            
+            
+        </ul>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
